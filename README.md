@@ -1,4 +1,3 @@
-```markdown
 # krs_crafting
 
 An advanced, secure, and highly customizable crafting system for FiveM. Build items and weapons using a deployable workbench with a modern, responsive React UI.
@@ -9,17 +8,20 @@ An advanced, secure, and highly customizable crafting system for FiveM. Build it
 * **Modern React UI:** A beautiful, responsive, and animated user interface built with React and Mantine.
 * **Job & Gang Permissions:** Restrict specific crafting blueprints to certain jobs, gangs, or grade levels.
 * **Multi-Framework:** Built-in compatibility with **QBCore**, **ESX**, and **Qbox**.
-* **Robust kicks/logs:** Server-side validation for everything. Tracks placed workbenches, validates item quantities, checks permissions, and kicks/logs cheaters via Discord Webhooks.
+* **Robust Anti-Cheat:** Server-side validation for everything. Tracks placed workbenches, validates item quantities, checks permissions, and kicks/logs cheaters via Discord Webhooks.
 * **Multi-language:** Built-in support for multiple languages using `ox_lib` locales (EN and IT included).
 * **Fully Configurable:** Easily change the workbench prop, item requirements, crafting times, and toggle between Item or Command placement modes.
 
 ## Dependencies
 
 Ensure you have the following resources installed and running on your server:
+
 * [ox_lib](https://github.com/overextended/ox_lib)
 * [ox_inventory](https://github.com/overextended/ox_inventory)
 * [ox_target](https://github.com/overextended/ox_target)
-* [scully_emotemenu](https://github.com/Scullyy/scully_emotemenu) (Used for dismantling animations)
+* [scully_emotemenu](https://github.com/Scullyy/scully_emotemenu) *(Used for dismantling animations)*
+
+---
 
 ## Installation
 
@@ -28,7 +30,8 @@ Ensure you have the following resources installed and running on your server:
 3. **Configure** your Discord Webhook, crafting recipes, and preferences in `config.lua`.
 
 ### Adding the Workbench Item (ox_inventory)
-If you set `Config.UseItem = true` in your configuration, you must add the workbench item to `ox_inventory`. 
+
+If you set `Config.UseItem = true` in your configuration, you must add the workbench item to `ox_inventory`.
 
 Navigate to `ox_inventory/data/items.lua` and add the following snippet:
 
@@ -46,7 +49,7 @@ Navigate to `ox_inventory/data/items.lua` and add the following snippet:
 
 ```
 
-*Don't forget to add a `workbench.png` image (100x100px recommended) inside `ox_inventory/web/images/`.*
+> **Note:** Don't forget to add a `workbench.png` image (100x100px recommended) inside `ox_inventory/web/images/`.
 
 ### Language Setup
 
@@ -67,6 +70,10 @@ ensure ox_inventory
 ensure ox_target
 ensure scully_emotemenu
 ensure krs_crafting
+
+```
+
+```
 
 ```
 
