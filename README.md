@@ -8,7 +8,7 @@ An advanced, secure, and highly customizable crafting system for FiveM. Build it
 * **Modern React UI:** A beautiful, responsive, and animated user interface built with React and Mantine.
 * **Job & Gang Permissions:** Restrict specific crafting blueprints to certain jobs, gangs, or grade levels.
 * **Multi-Framework:** Built-in compatibility with **QBCore**, **ESX**, and **Qbox**.
-* **Robust Anti-Cheat:** Server-side validation for everything. Tracks placed workbenches, validates item quantities, checks permissions, and kicks/logs cheaters via Discord Webhooks.
+* **Robust kicks/logs:** Server-side validation for everything. Tracks placed workbenches, validates item quantities, checks permissions, and kicks/logs cheaters via Discord Webhooks.
 * **Multi-language:** Built-in support for multiple languages using `ox_lib` locales (EN and IT included).
 * **Fully Configurable:** Easily change the workbench prop, item requirements, crafting times, and toggle between Item or Command placement modes.
 
