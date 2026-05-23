@@ -271,7 +271,6 @@ if Config.UseItem then
             return 
         end
 
-        exports.ox_inventory:closeInventory()
 
         isPlacing = true
         spawnBench()
